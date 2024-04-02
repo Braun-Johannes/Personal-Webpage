@@ -1,0 +1,17 @@
+.cookie-banner h4 {
+  margin: 0;
+  border: solid 1px red;
+}
+
+h4 {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  border: solid 1px red;
+}
