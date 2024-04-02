@@ -1,0 +1,135 @@
+/* !!!!!NICHT VERGESSEN!!!!!
+    - HYPERLINK FARBE ÄNDERN
+    - LOGO ÜBER NAME
+    - BACKGROUND PICTURE SHRINKS WHEN DEV TOOLS OPEN FOR EXAMPLE
+    - FOOTER NEEDS TO STICK LATER
+*/
+/* 
+#first-section {
+    background: url(https://images.pexels.com/photos/7853221/pexels-photo-7853221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: 210% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+body {
+  background: url(https://images.pexels.com/photos/7853221/pexels-photo-7853221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: 210% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-container {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 0.5rem;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  border: solid 3px rgb(255, 255, 255);
+}
+.name {
+  box-sizing: border-box;
+  color: cyan;
+  font-family: fantasy;
+  text-align: center;
+}
+.introduction {
+  box-sizing: border-box;
+  color: silver;
+  font-family: fantasy;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.established {
+  box-sizing: border-box;
+  color: silver;
+  font-family: cursive;
+  font-weight: bolder;
+  font-style: italic;
+  /* text-decoration: underline; */
+}
+
+.signed {
+  box-sizing: border-box;
+  position: static;
+  left: 50%;
+  color: silver;
+  font-family: cursive;
+}
+
+.link {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.link:hover {
+  color: silver;
+}
+
+.socials:hover {
+  font-weight: bold;
+}
+.socials {
+  padding: 5px 14px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  background-color: rgb(192, 192, 192);
+  color: silver;
+}
+
+.horizontal-line {
+  background-color: aqua;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: darkgray;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  border: solid 2px rgb(255, 255, 255);
+}
+.skill-list {
+  position: relative;
+  right: 10%;
+  font-family: fantasy;
+  color: silver;
+}
+
+.footer-banner {
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  bottom: 3%;
+  text-align: center;
+  background-color: rgb(192, 192, 192, 0.5);
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
