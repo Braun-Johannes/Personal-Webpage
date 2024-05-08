@@ -1,17 +1,19 @@
-/* 
-#first-section {
-    background: url(https://images.pexels.com/photos/7853221/pexels-photo-7853221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: 210% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 body {
-  background: url(https://images.pexels.com/photos/17485683/pexels-photo-17485683/free-photo-of-klima-abstrakt-technologie-forschung.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-  background-size: auto;
+  background-color: black;
+  /* background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
+
+.background-container {
+  background: url(https://images.pexels.com/photos/17485683/pexels-photo-17485683/free-photo-of-klima-abstrakt-technologie-forschung.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  position: relative;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  border: solid red 2px;
+}
+/* Not working yet */
 
 .info-container {
   box-sizing: border-box;
